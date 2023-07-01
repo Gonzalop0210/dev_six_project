@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --font_montserrat: 'Montserrat', sans-serif;
+    /* Colors */
+    --color_orange: #F2994A;
+    --color_gray: #828282;
+    --color_gray_dark: #4E5150;
+    --color_title_input: #4F4F4F;
+    --color_subtitle: #333333;
+    --color_background_box: #F2F2F2;
+    --color_line: #BDBDBD;
+}
