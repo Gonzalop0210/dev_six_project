@@ -176,4 +176,65 @@ body {
 .icon_form {
     color: var(--color_gray);
 }
+
+.list_country {
+    color: var(--color_gray);
+}
+
+.container_country_postal {
+    display: flex;
+    gap: 20px;
+}
+
+.container_form_items {
+    flex: 1;
+}
+
+.container_checkout {
+    display: flex;
+    gap: 5px;
+    font-family: var(--font_montserrat);
+    font-size: 12.5px;
+}
+
+.checkout {
+    width: 20px;
+}
+
+.container_button {
+    text-align: end;
+}
+
+.boton {
+    background-color: var(--color_orange);
+    color: var(--color_background_box);
+    border: 1px solid var(--color_orange);
+    padding: 15px 35px;
+    font-size: 15px;
+    font-family: var(--font_montserrat);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.boton:hover {
+    background-color: #f17e18;
+}
 /* Main End */
+/* Footer Start */
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font_montserrat);
+    font-size: 14px;
+    color: var(--color_gray);
+}
+
+.underline {
+    text-decoration: underline;
+}
+/* Footer End */
+/* Styles add */
+.add_outline {
+    outline: 1px solid #000;
+}

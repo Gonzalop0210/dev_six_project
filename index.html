@@ -78,14 +78,14 @@
             <form action="" class="form">
                 <div class="container_form_items">
                     <label for="" class="label text_email">E-mail</label>
-                    <div class="icon_input">
+                    <div class="icon_input container_email">
                         <i class="fa-solid fa-envelope icon_form"></i>
                         <input type="email" name="" id="" class="input input_email" placeholder="Enter your email...">
                     </div>
                 </div>
                 <div class="container_form_items">
                     <label for="" class="label text_phone">Phone</label>
-                    <div class="icon_input">
+                    <div class="icon_input container_phone">
                         <i class="fa-solid fa-phone icon_form"></i>
                         <input type="number" class="input input_phone" placeholder="Enter your phone...">
                     </div>
@@ -97,32 +97,32 @@
             <form action="" class="form">
                 <div class="container_form_items">
                     <label for="" class="label text_name">Full name</label>
-                    <div class="icon_input">
+                    <div class="icon_input container_name">
                         <i class="fa-solid fa-circle-user icon_form"></i>
-                        <input type="text" name="" id="" class="input input_text" placeholder="Your name...">
+                        <input type="text" name="" id="" class="input input_text input_name" placeholder="Your name...">
                     </div>
                 </div>
                 <div class="container_form_items">
                     <label for="" class="label text_address">Address</label>
-                    <div class="icon_input">
+                    <div class="icon_input container_address">
                         <i class="fa-solid fa-house icon_form"></i>
-                        <input type="text" class="input input_text" placeholder="Your address...">
+                        <input type="text" class="input input_text input_address" placeholder="Your address...">
                     </div>
                 </div>
                 <div class="container_form_items">
                     <label for="" class="label text_city">City</label>
-                    <div class="icon_input">
+                    <div class="icon_input container_city">
                         <i class="fa-solid fa-city icon_form"></i>
-                        <input type="text" class="input input_text" placeholder="Your city...">
+                        <input type="text" class="input input_text input_city" placeholder="Your city...">
                     </div>
                 </div>
                 <div class="container_country_postal">
                     <div class="container_form_items">
                         <label for="" class="label text_country">Country</label>
-                        <div class="icon_input">
+                        <div class="icon_input container_country">
                             <i class="fa-solid fa-earth-americas icon_form"></i>
-                            <select name="" id="" class="list_country input">
-                                <option value="Seleccione" class="country">Your country...</option>
+                            <select name="" id="" class="list_country input input_country">
+                                <option value="Seleccione" class="country" id="place_holder">Your country...</option>
                                 <option value="peru" class="country">Perú</option>
                                 <option value="colombia" class="country">Colombia</option>
                                 <option value="eeuu" class="country">Estados Unidos</option>
@@ -131,18 +131,18 @@
                     </div>
                     <div class="container_form_items">
                         <label for="" class="label text_postal">Postal code</label>
-                        <div class="icon_input">
+                        <div class="icon_input container_postal">
                             <i class="fa-brands fa-usps icon_form"></i>
                             <input type="number" class="input input_postal" placeholder="Your postal code...">
                         </div>
                     </div>
-                    <div class="container_checkout">
-                        <input type="checkbox" name="" id="" class="checkout">
-                        <span class="text_checkout">Save this information for next time</span>
-                    </div>
-                    <div class="container_button">
-                        <input type="button" value="Continue">
-                    </div>
+                </div>
+                <div class="container_checkout">
+                    <input type="checkbox" name="" id="" class="checkout">
+                    <span class="text_checkout">Save this information for next time</span>
+                </div>
+                <div class="container_button">
+                    <input type="button" value="Continue" class="boton">
                 </div>
             </form>
         </div>
@@ -150,5 +150,6 @@
     <footer class="footer">
         <p class="copiryth">Created by <span class="underline">username</span> - GPTechnology.pe</p>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
