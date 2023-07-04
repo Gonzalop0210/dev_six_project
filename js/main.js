@@ -6,6 +6,15 @@ let input_city = document.querySelector('.input_city');
 let input_country = document.querySelector('.input_country');
 let input_postal = document.querySelector('.input_postal');
 
+const array_input = [];
+array_input.push(input_email);
+array_input.push(input_phone);
+array_input.push(input_name);
+array_input.push(input_address);
+array_input.push(input_city);
+array_input.push(input_country);
+array_input.push(input_postal);
+
 let container_email = document.querySelector('.container_email');
 let container_phone = document.querySelector('.container_phone');
 let container_name = document.querySelector('.container_name');
@@ -13,6 +22,15 @@ let container_address = document.querySelector('.container_address');
 let container_city = document.querySelector('.container_city');
 let container_country = document.querySelector('.container_country');
 let container_postal = document.querySelector('.container_postal');
+
+const array_container = [];
+array_container.push(container_email);
+array_container.push(container_phone);
+array_container.push(container_name);
+array_container.push(container_address);
+array_container.push(container_city);
+array_container.push(container_country);
+array_container.push(container_postal);
 
 input_email.addEventListener('click', function(event) {
     container_phone.classList.remove('add_outline');
@@ -83,13 +101,3 @@ input_postal.addEventListener('click', function() {
     container_postal.classList.add('add_outline');
     container_email.classList.remove('add_outline');
 });
-
-/* document.addEventListener('click', function() {
-    container_phone.classList.remove('add_outline');
-    container_name.classList.remove('add_outline');
-    container_address.classList.remove('add_outline');
-    container_city.classList.remove('add_outline');
-    container_country.classList.remove('add_outline');
-    container_postal.classList.remove('add_outline');
-    container_email.classList.remove('add_outline');
-}); */

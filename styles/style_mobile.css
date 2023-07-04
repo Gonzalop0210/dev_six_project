@@ -238,3 +238,20 @@ body {
 .add_outline {
     outline: 1px solid #000;
 }
+
+/* Input Error */
+.input_error {
+    outline: 2px solid red;
+}
+
+.text_error::placeholder, .icon_error {
+    color: red;
+}
+
+.select_error {
+    outline: 2px solid red;
+}
+
+.input_country_error {
+    color: red;
+}
