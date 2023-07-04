@@ -25,6 +25,8 @@ boton.addEventListener('click', function(event) {
             array_container[i].classList.add('input_error', 'select_error');
             array_icons[i].classList.add('icon_error');
             array_input[i].classList.add('text_error', 'input_country_error');
+        } else {
+            window.location.reload();
         }
     }
 });
